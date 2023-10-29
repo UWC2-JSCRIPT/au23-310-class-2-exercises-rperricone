@@ -4,11 +4,11 @@
 // - lastName
 // - 'favorite food'
 // - bestFriend (object with the same 3 properties as above)
-const robin = {firstName: 'Robin', lastName:'Perricone', favoriteFood:'Pizza', bestFriend:{firstName: 'Robert', lastName:'Fornof', favoriteFood:'Rat Soup'}}
+const robin = {firstName: 'Robin', lastName:'Perricone', 'favorite food':'Pizza', bestFriend:{firstName: 'Robert', lastName:'Fornof', 'favorite food':'Rat Soup'}}
 
 // 2. console.log best friend's firstName
 // and your favorite food
-console.log(robin.bestFriend.firstName, robin.favoriteFood)
+console.log(robin.bestFriend.firstName, robin['favorite food'])
 
 // 3. Create an array to represent this tic-tac-toe board
 // -O-
